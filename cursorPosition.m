@@ -1,3 +1,7 @@
+% Description: Displaying real-time cursor position using Matlab
+% Ahmad Faisal Mohamad Ayob, 2024
+% Source: https://www.mathworks.com/matlabcentral/answers/331746-how-to-get-the-real-time-position-of-mouse-outside-matlab#comment_439964
+
 hfig = figure('pos',[100,100,300,300]);
 textBox = uicontrol('parent',hfig,'style','text','string','Balance','pos',[40,14,200,90]);
 t = timer('ExecutionMode', 'fixedRate', ...
